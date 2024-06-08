@@ -22,12 +22,12 @@ The loss and accuracy metrics from the training and validation data show excelle
   <img src="https://github.com/williiiamr/ASL_Recoginition/blob/master/img/Loss_and_acc.png" alt="Loss n Acc", width='550'>
 </div>
 
-### Then using confusion matrix it is shown that the model is able to predict each class from test set accurately with only 1 missclassification.
+Then using confusion matrix it is shown that the model is able to predict each class from test set accurately with only 1 missclassification.
 <div align="left">
   <img src="https://github.com/williiiamr/ASL_Recoginition/blob/master/img/Confusion%20Matrix.png" alt="confusion matrix", width='550'>
 </div>
 
-### I then test the model using random handsign images from the internet to see how accurate would the model be in classifying random images:
+I then test the model using random handsign images from the internet to see how accurate would the model be in classifying random images:
 1. Testing on the image below, which represents the letter 'G', yielded a result of 97%, demonstrating that the model can effectively recognize sign language.
 <div align="left">
   <img src="https://github.com/williiiamr/ASL_Recoginition/blob/master/img/g.png" alt="G", width='150'>
