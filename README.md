@@ -1,32 +1,31 @@
-# Credit Card Fraud Detection 💳
+# Handsign Recognition 🤚
 <div align="center">
   <img src="https://github.com/dinata16/data-science-projects/assets/89764786/17476a6a-54d2-431e-9021-6305176495ab" alt="creditcard">
 </div>
 
 ## Project Overview 📑
-This project aims to develop a machine learning model capable of detecting suspicious or potentially fraudulent credit card transactions. This model can help financial institutions to reduce fraud losses and improve customer transaction security.
+This project aims to develop a machine learning model capable of detecting American Sign Language Handsign and classifying them into corresponding letters. The purpose of this project is to help people learn and understand handsign easily, serving as a baseline model for future improvements.
 
 ## About The Dataset ✏
-The project utilizes [Credit Card Fraud datasets](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data) from Kaggle containing information such as transaction time, transaction amount, and various anonymized features generated through Principal Component Analysis (PCA). This dataset is highly imbalanced, with fraudulent transactions representing only a small fraction of the total transactions.
+The project utilizes [ASL Dataset](https://www.kaggle.com/datasets/ayuraj/asl-dataset/data) from Kaggle which contains images of hand signs for both numbers and letters from A-Z. However, since the model is focused on classifying letters, the numbers are discarded from the dataset.
 
 ## Methodology 🍴
-- Exploratory Data Analysis (EDA): Understand the data distribution, identify outliers, and analyze relationships between features.
-- Data Preprocessing: Handle missing values, perform feature scaling, and address class imbalance (e.g., using oversampling or undersampling techniques).
-- Feature Selection: Identify the most relevant features for modeling using techniques such as correlation analysis.
-- Modeling: Develop machine learning model Random Forest and compare when handling imbalanced dataset
-- Model Evaluation: Evaluate model performance using metrics like precision, recall, F1-score, and Area Under the Receiver Operating Characteristic Curve (AUROC).
+- Data Preprocessing: Pipelining image into a dataset, splitting dataset to train, test, and validation, and address image preprocessing (e.g., shuffling, scaling, and batching images).
+- Modeling: Develop machine learning model using transfer learning from VGG16 and conduct experiments to find the most suitable combination of layer for building a robust model
+- Fine Tuning: Experimenting to find the optimal hyperparameters to help model converge faster
+- Model Evaluation: Evaluate model performance using metrics like precision, recall, F1-score, Accuracy and confusion matrix 
 
 ## Results ⭐
-The best-performing model achieved high accuracy score and recall score in detecting fraudulent transactions. The model is also effective in reducing false positive, which are legitimate transactions incorrectly identified as fraudulent.
+
 
 ## Conclusion 💾
-This project demonstrates the potential of machine learning in credit card fraud detection. The developed model can be a valuable tool for financial institutions to enhance transaction security and protect customers from financial losses.
+This project demonstrates the potential of machine learning in hand sign detection. The developed model can be a valuable tool to assist deaf people in communicating, learning, and performing various tasks more effectively.
 
 ## Suggestions 📎
-- Experiment with more complex model architectures, such as deep learning.
+- Experiment with more complex model architectures and other transfer learning models.
 - Collect more data to improve model performance.
-- Develop a real-time system for immediate fraud detection.
-- Experiment with hyperparameter tunnning such as GridSearch, RandomSearch, or BayessianSearch
+- Develop a real-time system to detect handsign using camera with bounding boxes.
+- Develop a more complex logic to stitch together the letters to make a word.
 
 ## Contributions 👨‍🔧
 Contributions are welcome! Please submit a pull request if you have any suggestions or improvements.
