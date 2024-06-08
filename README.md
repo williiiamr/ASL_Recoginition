@@ -24,7 +24,7 @@ The loss and accuracy metrics from the training and validation data show excelle
 
 Then using confusion matrix it is shown that the model is able to predict each class from test set accurately with only 1 missclassification.
 <div align="left">
-  <img src="https://github.com/williiiamr/ASL_Recoginition/blob/master/img/Confusion%20Matrix.png" alt="confusion matrix", width='400'>
+  <img src="https://github.com/williiiamr/ASL_Recoginition/blob/master/img/Confusion%20Matrix.png" alt="confusion matrix", width='550'>
 </div>
 
 I then test the model using random handsign images from the internet to see how accurate would the model be in classifying random images:
