@@ -18,7 +18,7 @@ The project utilizes [ASL Dataset](https://www.kaggle.com/datasets/ayuraj/asl-da
 
 ## Results ⭐
 The loss and accuracy metrics from the training and validation data show excellent results, indicating that the model is improving with each epoch. This consistent learning demonstrates the effectiveness of the training process and suggests that the model is successfully capturing the underlying patterns in the data. 
-<img src="https://github.com/williiiamr/ASL_Recoginition/blob/master/img/Loss_and_acc.png", width="50">
+<img src="https://github.com/williiiamr/ASL_Recoginition/blob/master/img/Loss_and_acc.png", alt="Acc n Loss", width="50">
 
 then using confusion matrix it is shown that the model is able to predict each class from test set accurately with only 1 missclassification.
 ![Confusion Matrix](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/Confusion%20Matrix.png)
