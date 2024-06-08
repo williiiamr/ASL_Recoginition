@@ -22,13 +22,17 @@ The loss and accuracy metrics from the training and validation data show excelle
   <img src="https://github.com/williiiamr/ASL_Recoginition/blob/master/img/Loss_and_acc.png" alt="Loss n Acc", width='550'>
 </div>
 
-then using confusion matrix it is shown that the model is able to predict each class from test set accurately with only 1 missclassification.
+Then using confusion matrix it is shown that the model is able to predict each class from test set accurately with only 1 missclassification.
 ![Confusion Matrix](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/Confusion%20Matrix.png)
 
 I then test the model using random handsign images from the internet to see how accurate would the model be in classifying random images:
-1. ![E](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/e.png)
-2. ![G](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/g.png)
-3. ![C](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/c.png)
+1.Testing on the image below, which represents the letter 'G', yielded a result of 97%, demonstrating that the model can effectively recognize sign language.
+<div align="center">
+  <img src="https://github.com/williiiamr/ASL_Recoginition/blob/master/img/g.png" alt="G">
+</div>
+2. ![E](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/e.png)
+3. ![G](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/g.png)
+4. ![C](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/c.png)
 
 ## Conclusion 💾
 This project demonstrates the potential of machine learning in hand sign detection. The developed model can be a valuable tool to assist deaf people in communicating, learning, and performing various tasks more effectively.
