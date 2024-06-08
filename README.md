@@ -1,6 +1,6 @@
 # Handsign Recognition 🤚
 <div align="center">
-  <img src="https://github.com/dinata16/data-science-projects/assets/89764786/17476a6a-54d2-431e-9021-6305176495ab" alt="creditcard">
+  <img src="https://github.com/williiiamr/ASL_Recoginition/blob/master/img/ASL_cover.png" alt="creditcard">
 </div>
 
 ## Project Overview 📑
