@@ -27,8 +27,8 @@ Then using confusion matrix it is shown that the model is able to predict each c
 
 I then test the model using random handsign images from the internet to see how accurate would the model be in classifying random images:
 1.Testing on the image below, which represents the letter 'G', yielded a result of 97%, demonstrating that the model can effectively recognize sign language.
-<div align="center">
-  <img src="https://github.com/williiiamr/ASL_Recoginition/blob/master/img/g.png" alt="G">
+<div align="left">
+  <img src="https://github.com/williiiamr/ASL_Recoginition/blob/master/img/g.png" alt="G", width='300'>
 </div>
 2. ![E](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/e.png)
 3. ![G](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/g.png)
