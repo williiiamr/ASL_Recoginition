@@ -18,15 +18,15 @@ The project utilizes [ASL Dataset](https://www.kaggle.com/datasets/ayuraj/asl-da
 
 ## Results ⭐
 The loss and accuracy metrics from the training and validation data show excellent results, indicating that the model is improving with each epoch. This consistent learning demonstrates the effectiveness of the training process and suggests that the model is successfully capturing the underlying patterns in the data. 
-![Training and Validation of model](/assets/images/electrocat.png)
+![Training and Validation of model](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/Loss_and_acc.png)
 
 then using confusion matrix it is shown that the model is able to predict each class from test set accurately with only 1 missclassification.
-![Confusion Matrix](/assets/images/electrocat.png)
+![Confusion Matrix](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/Confusion%20Matrix.png)
 
 I then test the model using random handsign images from the internet to see how accurate would the model be in classifying random images:
-1. ![L](/assets/images/electrocat.png)
-2. ![G](/assets/images/electrocat.png)
-3. ![C](/assets/images/electrocat.png)
+1. ![E](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/e.png)
+2. ![G](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/g.png)
+3. ![C](https://github.com/williiiamr/ASL_Recoginition/blob/master/img/c.png)
 
 ## Conclusion 💾
 This project demonstrates the potential of machine learning in hand sign detection. The developed model can be a valuable tool to assist deaf people in communicating, learning, and performing various tasks more effectively.
